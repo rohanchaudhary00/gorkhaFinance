@@ -1,0 +1,313 @@
+* {
+    padding: 0%;
+}
+h4 a {
+    padding: 0%;
+    color: black;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Lumanosimo', cursive;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    padding: 0%;
+   
+}
+.bodi {
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 2px solid rgb(221, 221, 221);
+    display: block;
+    flex-shrink: 0;
+    margin: 0 auto;
+    min-height: 0;
+    transition: .2s;
+    width: 400px; 
+    padding-bottom: 30px;   
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    height: 43vh; /* Adjust this value as needed */ 
+    
+  }
+
+
+.first {
+    /* border: 2px solid white; */
+    width: 500px;
+    height: 700px;
+}
+
+.logdetail {
+    justify-self: left;
+    text-align: left;
+
+}
+
+.new {
+    margin-left: 20px;
+    font-family: 'Sriracha', cursive;
+}
+
+.new,a {
+    padding-top: 0%;
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 0%;
+    color: black;
+}
+
+
+#flog {
+    padding: 10px;
+    margin-bottom: 2px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+}
+
+.login {
+text-align: center;
+
+}
+
+.name {
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    font-family: 'Signika', sans-serif;
+    text-align: left;
+    
+}
+.name input {
+    margin-left: -20px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-left: 4%;
+    font-family: 'Signika', sans-serif;
+    border:none; 
+    outline: 2px solid rgb(166, 166, 166);
+    border-radius: 8px;
+    
+}
+.password-container {
+    position: relative;
+    align-items: center;
+    margin-bottom: 10px; /* Add some spacing at the bottom */
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    font-family: 'Signika', sans-serif;
+    text-align: left;
+}
+.logdetail {
+    margin-right: 10px; /* Add some spacing between label and input */
+    margin-left: -20px;  
+}
+#password {
+    padding-right: 0px; /* Space for the eye icon */
+  }
+.password-container input {
+    margin-left: -20px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-left: 4%;
+    font-family: 'Signika', sans-serif;
+    border:none; 
+    outline: none;
+    border: 2px solid rgb(166, 166, 166);
+    border-radius: 8px;
+    
+}
+
+#eye {
+    position: absolute;
+    top: 120%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* Hide the eye icon initially */
+    display: none;
+  }
+
+
+#log {
+    font-family: 'Signika', sans-serif;
+    text-decoration: none;
+    width: 300px;
+    border-radius: 8px;
+    background-color: rgb(249, 218, 77);
+    /* color: rgb(253, 253,253); */
+    margin-top:0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+     
+}
+
+#nothaving {
+    font-family: 'Kalam', cursive;
+    margin-top: 40px;
+    margin-left: -200px;
+}
+
+#nothaving a {
+    text-decoration: underline;
+    padding: 0%;
+    color: rgba(50, 113, 176);
+}
+
+.enter p {
+    font-size: large;
+    margin-bottom: 5px;
+    margin-left: -150px;
+}
+
+/* For Line and middle text  */
+.line-container {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .custom-line {
+    border: none;
+    border-top: 2px solid  rgb(221, 221, 221)  ; /* Customize line color and thickness */
+    width: 30%; /* Customize line width */
+    margin: 0 auto; /* Center the line */
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #111;;
+    transform: translate(-50%, -50%);
+    background-color: white;/* Set background color behind text */
+    padding: 0 10px; /* Add some padding around the text */
+    font-family: 'Signika', sans-serif;
+  }
+  
+/* For Social sign in 
+/* Style for each login option 
+.login-container {
+    font-family: 'Signika', sans-serif;
+}
+
+/* Style for the login container 
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.or {
+    font-family: 'Signika', sans-serif;
+    padding-top: 0%;
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 0%;
+    margin-left: 230px;
+    font: bold;
+}
+.create a { 
+    font-family: 'Signika', sans-serif;
+    padding-top: 0%;
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 0%;
+    margin-left: 170px;
+    color: red;
+}
+.create a:hover {
+    color: green;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+/* Style for each login option 
+.login-option {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: 300px;
+    color: blue;
+}
+
+.login-option:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style for login icons 
+.login-icon {
+    width: 35px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+/* Style for the vertical line 
+.login-divider {
+    width: 2px;
+    height: 32px; /* Adjust this value to match the icon's height 
+    background-color: #000;
+    margin: 0 10px;
+}
+*/ 
+
+
+.footer {
+    padding: 10px;
+    font-family: 'Signika', sans-serif;
+    margin-bottom: 30px;
+}
+
+#login-container{
+    font-family: 'Signika', sans-serif;
+    text-decoration: none;
+    width: 300px;
+    border-radius: 8px;
+    background-color: white ;
+    margin-top:0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 570px;
+}
+.line{
+   border: none;
+   border-top: 2px solid  rgb(221, 221, 221)  ; 
+   width: 100%; 
+   margin-top: 10px;
+    
+}
+
+.last-footer {
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'Signika', sans-serif;
+    color:rgb(166, 166, 166);
+    padding: 10px;
+    text-align: center; 
+}

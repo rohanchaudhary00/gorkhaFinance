@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Create_Account_Page/createStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Your other styles and scripts here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="title">
+        <h3> <a href="/Home_Page/homeIndex.html">Gurkha Finance </a></h3>
+        </div>
+    <form action="" id="account-form">
+    <div class="bodi"> 
+       
+        <div class="form">
+            <div class="basic">
+                <span class="head">  Create New Account  </span> <br> 
+                <span class="name"> <span style="margin-left: 20px;"> Enter your Firstname: </span><input id="firstname" type="text" placeholder="Firstname"><span> <br>
+                <span class="name"> <span style="margin-left: 20px;">Enter your Lastname: </span><input id="lastname" type="text" placeholder="Lastname"></span> <br>
+                <span class="name"> <span style="margin-left: 20px;">Enter your Date of Birth: </span><input id="date" type="date" placeholder="Date Of Birth"></span>
+            </div>
+            <br>
+
+            <!-- <div class="information">
+                <span class="head"> <b> Basic information </b> </span> <br>
+                <span class="information1">Enter your birth date: <input id="date" type="date" placeholder="date of birth (MM-DD-YYYY)"><span> <br>
+                <span class="information1"> select you gender: 
+                    <select id="options" style="width: 300px; text-decoration: none;">
+                    <option value="Male"> Male </option>
+                    <option value="Female"> Female </option>
+                    </select>
+                </span>
+            </div>
+            <br> -->
+            
+            <div class="createGmail">
+                <span class="head">  Create Gmail address  </span> <br>
+
+                <span class="gmail"> <span style="margin-left: 20px;"> Username: </span><input id="email" type="email" placeholder="xyz@gmail.com"><span> <br> 
+                  <div class="password-container">
+                    <span style="margin-left: 20px;">Create password:</span> <input type="password" id="password1" class="password-input" placeholder="Enter password">
+                    <span class="toggle-password" id="togglePassword1">
+                        <i class="fa fa-eye"></i>
+                    </span>
+                </div>
+                <div class="password-container">
+                    <span style="margin-left: 20px;">  Retype password: </span><input type="password" id="password2" class="password-input" placeholder="Enter password">
+                    <span class="toggle-password" id="togglePassword2">
+                        <i class="fa fa-eye"></i>
+                    </span>
+                </div>
+            </div>
+            <div id="error" style="color: red;"></div>
+            <br>
+
+            <div class="createbtn">
+                <input id="btn" type="button" onclick="createAccount()" value=" Create Account ">
+            </div>
+
+            <p>By creating an account, you agree to Gurkha Finance Conditions of Use and Privacy Notice. </p>
+
+
+            Already have an account? <a href="/Log_in_page /logIndex.html" style="text-decoration: none; color: rgba(50, 113, 176);"> Sign in </a>
+        </div>
+    </div>
+</form>
+<hr class="line">
+<div class="last-footer">
+Copyright&copy; 2023 gurkhafinance.com | operated by Gurkha Finance 
+</div>
+<script src="/Create_Account_Page/createAccount.js"> </script>
+
+</body>
+</html>
